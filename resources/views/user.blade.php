@@ -2,31 +2,39 @@
 
     <div class="grid grid-cols-10 grid-rows-2 gap-6 px-10 py-10">
 
-        <div class="col-span-10 grid-row-1 bg-red-400 pt-10">
+        <div class="col-span-10 h-80 bg-red-400 pt-10">
             <div>
-                <h1 class="px-10">User Management</h1>     
+                <h1 class="px-10 pb-10 text-2xl">User Management</h1>     
             </div>
-            <div class="flex flex-col-3 gap-3 px-10">
+            <div class="flex gap-6 px-10">
+                <div class = "flex-1">
                     <x-stat-card
                     title="Team Leaders"             
                     value="2"
                     description="Navigators"
                     />
+                </div>
+                <div class = "flex-1">
                     <x-stat-card
                     title="Team Leaders"             
                     value="2"
                     description="Navigators"
                     />
+                </div>
+                <div class = "flex-1">
                     <x-stat-card
                     title="Team Leaders"             
                     value="2"
                     description="Navigators"
                     />
+                </div>
+                <div class = "flex-1">
                     <x-stat-card
                     title="Team Leaders"             
                     value="2"
                     description="Navigators"
                     />
+                </div> 
             </div>
         </div>
 
