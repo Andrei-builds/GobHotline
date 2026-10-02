@@ -5,7 +5,7 @@
         <div class="w-1/2 bg-red-500">
 
             <img
-                src="{{ asset('images/login.jpg') }}"
+                src="{{ asset('images/login-bg.png') }}"
                 class="w-full h-full object-cover"
             >
 
@@ -60,28 +60,21 @@
 
                 </div>
 
-
-                <div class="flex items-center gap-2 mb-6">
-
-                    <input
-                        type="checkbox"
-                        name="remember"
-                        id="remember"
-                    >
-
-                    <label for="remember">
-                        Remember me
-                    </label>
-
-                </div>
-
-
                 <button
                     type="submit"
                     class="w-full bg-red-700 text-white py-3 rounded-lg hover:bg-red-800"
                 >
                     Login
                 </button>
+
+                {{-- <div class="flex items-center gap-2 mb-6 pt-10">
+                    
+                    <a href="/forgot_password"></a>
+                    <label for="remember">
+                        Forgot Password
+                    </label>
+
+                </div> --}}
 
             </form>
 

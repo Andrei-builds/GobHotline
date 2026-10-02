@@ -56,7 +56,7 @@
                     Tungkol sa Amin
                 </a>
 
-                <a href=""
+                <a href="/login"
                    class="rounded-md border border-gray-200 px-5 py-2.5 text-xs font-semibold transition hover:bg-gray-50">
                     Login
                 </a>
